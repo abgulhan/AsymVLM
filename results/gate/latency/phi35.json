@@ -1,0 +1,16 @@
+{
+ "model": "phi35",
+ "requests": 96,
+ "threshold": 0.65,
+ "gpu": "NVIDIA A100-SXM4-40GB",
+ "uniform40_mean_ms": 461.92669179678586,
+ "gate_mean_ms": 812.9889079912876,
+ "ratio_mean": 1.7599955196980555,
+ "uniform40_p50_ms": 397.9011778719723,
+ "gate_p50_ms": 704.487033188343,
+ "uniform40_p90_ms": 853.7621586583555,
+ "gate_p90_ms": 1405.3121176548302,
+ "accept_at_10": 0.5729166666666666,
+ "gate_ms_when_accepted": 633.5350101136349,
+ "gate_ms_when_escalated": 1053.7197466076511
+}

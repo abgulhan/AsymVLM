@@ -1,0 +1,48 @@
+{
+  "model": "qwen25",
+  "hf_model_id": "Qwen/Qwen2.5-VL-3B-Instruct",
+  "hf_revision": "66285546d2b821cf421d4f5eb2576359d3770cd3",
+  "adapter": "qwen2_5_vl",
+  "max_visual_patches": 1280,
+  "backbone_dtype": "bfloat16",
+  "stage1_reference": {
+    "entry_point": "python -m learned_score.mlsys_scorer {extract,train}",
+    "manifest_split": "scorer_train",
+    "rows": 5600,
+    "rows_per_dataset": {"pixparse/docvqa-single-page-questions": 2800, "lmms-lab/textvqa": 2800},
+    "target": "answer_gradient_saliency (multimodel.saliency.compute_answer_gradient_saliency)",
+    "loss": "mlsys_scorer.models.saliency_loss",
+    "variant": "rank32",
+    "rank": 32,
+    "init": "Rank32Scorer: visual ~ N(0, 1/sqrt(H)), question = copy(visual)",
+    "optimizer": "AdamW",
+    "learning_rate": 0.001,
+    "weight_decay": 0.01,
+    "max_grad_norm": 1.0,
+    "epochs": 1,
+    "batch_size": 1,
+    "seed": 42,
+    "shuffle": "random.Random(seed + epoch).shuffle(entries sorted by (dataset,row_hash))",
+    "steps": 5600,
+    "save_every": 100
+  },
+  "stage2_attention_v19": {
+    "entry_point": "learned_score.mlsys_sprint.attention_pilot_v19.fit (arm 'corrected')",
+    "rows": 100,
+    "warm_start": "stage1_reference",
+    "target": "labels.corrected_attention: middle-half-layer reference-answer attention / leave-image-out 8x8 position bias",
+    "loss": "mlsys_sprint.evidence_learning_v18.evidence_loss",
+    "optimizer": "AdamW", "learning_rate": 0.0001, "weight_decay": 0.01, "max_grad_norm": 1.0,
+    "epochs": 3, "batch_size": 1, "seed": 42, "steps": 300
+  },
+  "stage3_query_v24": {
+    "entry_point": "learned_score.mlsys_sprint.query_selector_v24 {extract,fit}, mode 'retrained'",
+    "rows": 132,
+    "rows_detail": "100 stage-2 rows + 32 additional questions paired with already-used training images (66 DocVQA / 66 TextVQA)",
+    "warm_start": "stage2_attention_v19",
+    "target": "labels.corrected_attention with leave-image-out position bias",
+    "loss": "evidence_loss / (#questions sharing the image)  (image-balanced)",
+    "optimizer": "AdamW", "learning_rate": 0.0001, "weight_decay": 0.01, "max_grad_norm": 1.0,
+    "epochs": 3, "batch_size": 1, "seed": 42, "steps": 396
+  }
+}

@@ -1,0 +1,19 @@
+# Pinned versions from the environment that produced the paper results (Python 3.11).
+torch==2.6.0
+torchvision==0.21.0
+transformers==4.51.3
+accelerate==1.4.0
+huggingface-hub==0.36.2
+safetensors==0.8.0
+tokenizers==0.21.4
+sentencepiece==0.2.0
+protobuf==6.33.6
+qwen-vl-utils==0.0.10
+einops==0.8.1
+matplotlib==3.10.1
+numpy==2.2.3
+pillow==11.1.0
+pandas==2.2.3
+pyarrow==19.0.1
+tqdm==4.67.1
+pytest==8.3.5

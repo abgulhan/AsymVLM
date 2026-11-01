@@ -1,0 +1,799 @@
+{
+ "description": "olmOCR-Bench joint panel: 32 development sources (dev32) + 32 additional sources (new32); combined64 = both. Entries identify the page; build the full manifest with learned_score.mlsys_eval.olmocr.build_olmocr_manifest and select these row_hash values.",
+ "dataset": "allenai/olmOCR-bench",
+ "dataset_revision": "54a96a6fb6a2bd3b297e59869491db4d3625b711",
+ "dev32": [
+  {
+   "row_hash": "00e5e090b329910473bf7c8318ecf4cb6cb6d73ec9e006fde45003aeb9b903a7",
+   "pdf": "tables/b45c138c634308a84b8b2e67997bef8aa70b_pg15.pdf",
+   "page": 1,
+   "categories": [
+    "table_tests"
+   ],
+   "group_id": "olmOCR:source:4d741a3a4ccb85a91d3fb8d701839b22a21972c726c131c9610e382fabe31050",
+   "pdf_sha256": "6576a0316199c5800f968f24f72702246ca1012c0c1f7f2a6dcb84818f837e7d",
+   "image_sha256": "de11f573497525481eff31cce695472a8aed7ce2ccee9f73e9e70b1b76b95247"
+  },
+  {
+   "row_hash": "12111ba9adb7cfff6875910ebb865d44ea0e606c0ef7c6a32f23201047d4611b",
+   "pdf": "multi_column/02e31046996b59b4997b8413f09ae163ade5_page_10_pg1.pdf",
+   "page": 1,
+   "categories": [
+    "multi_column"
+   ],
+   "group_id": "olmOCR:source:f6f0179404142efd38cded61b643d78a9ff7d83147dab04730622d490c07575b",
+   "pdf_sha256": "1255f5ee519b69d4186b2c51010658a8e867b8990779db9c24c1f88730ec36d0",
+   "image_sha256": "19d90f8bb0d2559334fd55c759f0be35716efe7f4099d43b7232e405f7d65122"
+  },
+  {
+   "row_hash": "1982c0196438846d5227c74af3d9e24539ba928b11eb14d58582aeeaea892a32",
+   "pdf": "tables/8bc04603d7f0a1baf27d1d6acf58c61916c9_pg1.pdf",
+   "page": 1,
+   "categories": [
+    "table_tests"
+   ],
+   "group_id": "olmOCR:source:6fcf78fc2c884171b37f91341d9d09cd53126f8041b3dc64b23ad420e37a4e4a",
+   "pdf_sha256": "64034512631ef02ec95ba55b3353c9f458bba82719806910597a17d5a8ecfe75",
+   "image_sha256": "1cb8d960c9042a9b6855c2a865a332ebcf1893e487a465b2ac05dfcf41bda4a9"
+  },
+  {
+   "row_hash": "1d36e1d5fd47c3ff9344aa925717b5b44e8dc2ecb4317c3dcc9995de843707bd",
+   "pdf": "old_scans/37.pdf",
+   "page": 1,
+   "categories": [
+    "old_scans"
+   ],
+   "group_id": "olmOCR:source:d4915a30f1299ccb8c2efeeb7ad714b570d7f9b942a47441ab00173b5612eb5e",
+   "pdf_sha256": "8f1152abcb0d189162e93a8048fdf7d10dca2e4cf9e4161f4b0d6ef6b4c66a8b",
+   "image_sha256": "4b41a1e19a423ebd19c158e5fd8e7c3996a6c765bd3818c6d3b3fe14964f403d"
+  },
+  {
+   "row_hash": "1e74955817cbc760762723a3e61be1f6fb821f2e2c40387595e4c1469685ad29",
+   "pdf": "long_tiny_text/16c_pg1.pdf",
+   "page": 1,
+   "categories": [
+    "long_tiny_text"
+   ],
+   "group_id": "olmOCR:source:b6f6051fc40f2e432516f7e6f0340b656d43d026ded8d7730b5d0aad9df5bd1b",
+   "pdf_sha256": "ccc46e9bb7b15abc19837a30b8aeb19de0ee18182f1a9d6f044bd77e92425350",
+   "image_sha256": "a577b4453b8e87ef7626c5500eb95776ed0d67cffbaa5eaac9e8497b1a19c2cc"
+  },
+  {
+   "row_hash": "233ce38e57a89450e252564d5c0221e83e3078b8e079d4159b7a28dbd792be8b",
+   "pdf": "tables/6d48ac024cd71f0899fed96626b2b175c909_pg9.pdf",
+   "page": 1,
+   "categories": [
+    "table_tests"
+   ],
+   "group_id": "olmOCR:source:c3f741f0d6d52abc9a6a8f556a68ea59320f12877678f8180f394e4154c42932",
+   "pdf_sha256": "48e245390361477d1f80fe783beee92473d677b0864dc7a7f9f96504526dd4ea",
+   "image_sha256": "2ab64f80d5a784a0699e3c571d627b2e56456a18d2f29761bd1a36a1da7bd395"
+  },
+  {
+   "row_hash": "2f3479125fa5d19ef665d9e2b4af0fcb87ed915222e14dfa51cbbb60d0e0c3ed",
+   "pdf": "tables/6767787c7d1b64b777ddab83e3e88569ae24_pg1.pdf",
+   "page": 1,
+   "categories": [
+    "table_tests"
+   ],
+   "group_id": "olmOCR:source:ad6e58833e22cb0a9de7b4bf6781e4abb449628c97e5e6c8688734bdbfc6d604",
+   "pdf_sha256": "cfc4149c5bbb099be234f1b19eddfbfe5b7842fe8aef74e76c7344c3796175e7",
+   "image_sha256": "664b9f1135e0fe4af4fc2db9e9045c4fd7ca02ef4bd9bacb62f29788548c0a54"
+  },
+  {
+   "row_hash": "30678e8f4536e3f0c49a7e9e95fbbc280a892eb2fc55b356b147679f1fc5421f",
+   "pdf": "headers_footers/78643402ed01cc7523be74da4652e7a8e81bd426_page_1.pdf",
+   "page": 1,
+   "categories": [
+    "headers_footers"
+   ],
+   "group_id": "olmOCR:source:7364cbf88e9b143b9cd249615f9588349c9d9ab7a63e72724ab452e4bc5b55e7",
+   "pdf_sha256": "4afa962c71192459ea21ad232b3b2bc4b85ed20d69e365771bd52136c2d6e25f",
+   "image_sha256": "1eec12dcfefdb94985d0eee295a81b197466d2997865c86ecba60e5148f0b13a"
+  },
+  {
+   "row_hash": "3638231a110916e9091d374600e245e9b28a3b7c016afc91ce6bf1e105847b1d",
+   "pdf": "tables/ff19f6fe9ce187ea79f84df52004534e6ff7_pg4.pdf",
+   "page": 1,
+   "categories": [
+    "table_tests"
+   ],
+   "group_id": "olmOCR:source:39aa540863ee9d4f77759e02c290a55e0a4bd641855b505360cf0bc38c8bfb4b",
+   "pdf_sha256": "6b14914684de8fef4335a238c3d8db632a72b58d695b2fc332af51e7fdfbdae7",
+   "image_sha256": "e8e7343603a2a76a50daf832e2658117398c9f44e8cb9f0d1cfc60ee3c84fd57"
+  },
+  {
+   "row_hash": "3d14cc4bc46d15e2fbed7bee38708becef5b260ae5594b2ffc67f11d56a194b4",
+   "pdf": "headers_footers/3734d658b4732ac1f431dbb954537586c7da00b0_page_1.pdf",
+   "page": 1,
+   "categories": [
+    "headers_footers"
+   ],
+   "group_id": "olmOCR:source:78e058fa1bcd5995e39609967eb5192bec820d47f8380303246aa02e0ab1c614",
+   "pdf_sha256": "aa6ccaa42290880033cd78f6eae7b727f8b5ad679fd04cd37ea534db793491a7",
+   "image_sha256": "a498c478f7fc754b9c6fa2a433369d6e5bbe1f23b72a9204c096614b5e559a28"
+  },
+  {
+   "row_hash": "4877c1a2ff6ae8849b65f23e3cfc7f82fba2609bf32abc596ed41be8482d4f2c",
+   "pdf": "headers_footers/0a5fbc4e035831182cfa5597151c7690b4dcef88_page_7_processed.pdf",
+   "page": 1,
+   "categories": [
+    "headers_footers"
+   ],
+   "group_id": "olmOCR:source:f31bac41d5b47c1749f29fb8d9698ab37d0a7bd49fc500182a295a982274037a",
+   "pdf_sha256": "a684a0687fcaf99c4fec604d29a99dd3d75bba6fd49a23f8668c4e0b78708a13",
+   "image_sha256": "6303b0fbd1f0b7ae5aaae737ad51454b0d895bd4290e353879f7d6d62da8b905"
+  },
+  {
+   "row_hash": "4b2606f4f237678df8adc57c0ae69fbff9bee06e22baba7145de94287138c03c",
+   "pdf": "headers_footers/0188595fce9aeaa5051eb00567ba195bb3ac6e1b_page_1_processed.pdf",
+   "page": 1,
+   "categories": [
+    "headers_footers"
+   ],
+   "group_id": "olmOCR:source:eed573061422bce7616dfeca4480e66ad08cf92976ef2d7cebea2868fa0909c2",
+   "pdf_sha256": "95987674dbcdc031c47f5a4c5a706f002cbb848b4166fd350fb22c8c1d38f274",
+   "image_sha256": "ba60762133859e2e98ea3ee8ff3488b8068839785d559e9dbee54a838fd6621e"
+  },
+  {
+   "row_hash": "51d8366c3970a104653f2b680deacbf65cdd10365542d3f1a70c76035eaa6464",
+   "pdf": "tables/8bf7270c7971c46736f4d95f7117dbd9dcff_pg10.pdf",
+   "page": 1,
+   "categories": [
+    "table_tests"
+   ],
+   "group_id": "olmOCR:source:4647d522e2751c59c0e720f4ad7a8bd4d2db56accafeada40c0d2beae1c56857",
+   "pdf_sha256": "910de3cca7d39d92b755c5f7c002a3d5ce6be8a5e3cfec9f575861e388b60048",
+   "image_sha256": "f76e19641ace39f4b6630f91c92ec8b4c3be5ebea2d1d4be9227748eb379c140"
+  },
+  {
+   "row_hash": "5c38a3fd2854b607f052f92666e50318fbf1254b83600ad005b91be51a2128fc",
+   "pdf": "headers_footers/b08d6039375093f81a42aafefc33454e5d0fdf30_page_13.pdf",
+   "page": 1,
+   "categories": [
+    "headers_footers"
+   ],
+   "group_id": "olmOCR:source:977ec51c50557f1f2e2801f143605279ab2ed14b59eb80a6b784b3cd8e3d1e14",
+   "pdf_sha256": "121d851fbc6e4a20cb3f50353d739e4fff0c08b31ac550d6754f67e2a26f5233",
+   "image_sha256": "1aff5dbf61c32aec10713f051518593e2aaf917d36e96cf11f961b1bc9a198c1"
+  },
+  {
+   "row_hash": "5f9b633ff6617281043119c1d2561af09a26a6e04410a24c894153fd0121a342",
+   "pdf": "tables/f1774abde9c6d1cae0f05bb2c6992e9cca85_pg4.pdf",
+   "page": 1,
+   "categories": [
+    "table_tests"
+   ],
+   "group_id": "olmOCR:source:54912ab70d1648c4ad5e034fc87536a5930a02f961ab5df18b0ac71e57b03f43",
+   "pdf_sha256": "dce9d8a8ef3333e5b480770464a734820ae34f859069996247bd4cadb92e673d",
+   "image_sha256": "bf8297f35484dfe5561e227fe8f7c2ab3d6739000b5663e36187f0f6b9a8f9e6"
+  },
+  {
+   "row_hash": "61bcc5a3529d9d4b3de29461bd505ee4f4fb64c195cc85c7ac282ed133b4a0bc",
+   "pdf": "arxiv_math/2503.09181_pg5.pdf",
+   "page": 1,
+   "categories": [
+    "arxiv_math"
+   ],
+   "group_id": "olmOCR:source:c4549343a59d8293fffba80523c5555d1f7bfe2845aca688f5f245c13ca8f64f",
+   "pdf_sha256": "131b98c71689a6216a9b11f7cbb9ba91ffaeba2957e603c89cb967318cad44d1",
+   "image_sha256": "f625f93e4370b68bd28ce42a836edbb95afaca10968d11147c880904ee4e1cc8"
+  },
+  {
+   "row_hash": "62a216c06e1cf2b5e71b91906b2e5dee3dd093b9715856ee12c7055b2e1f88f4",
+   "pdf": "headers_footers/b4c3c4ac3d6f7b52a993cec7ca8b3ad43cecabad_page_3.pdf",
+   "page": 1,
+   "categories": [
+    "headers_footers"
+   ],
+   "group_id": "olmOCR:source:ec89ad46e8a49230b0f66811057b3fa5e3f384f9ceba554a964a299fb2e49b98",
+   "pdf_sha256": "42e1deb432efe33723d4be340dd095ecb03b22f556d801738f820276928e6a3a",
+   "image_sha256": "08901032e307418cdabce8d7acdd6130e8d57ff594c3ac75d26d0c453df24c0f"
+  },
+  {
+   "row_hash": "67d3bd3d4df9c3993152c4e57f99c803e15d9e25746f084de5cdaf779abe0442",
+   "pdf": "multi_column/0e1cdcf74d42cf251ad3e6127439c537599c_page_5_pg1.pdf",
+   "page": 1,
+   "categories": [
+    "multi_column"
+   ],
+   "group_id": "olmOCR:source:a56b39f764a33dfa13e8a21f51d2bb1166f6b4195cc0f1a450d11e67de7f4df5",
+   "pdf_sha256": "f9de053c832bd913a38e17e7fa9d32ea98df78e48449f51249473c2d1407cc05",
+   "image_sha256": "90b1294325b111052ee4b46641b941481c94c63062b72e08fe4776f9b6265315"
+  },
+  {
+   "row_hash": "68a7b71743ef9cc3133d8863f12889a4ac0ca72e911a9f34d0f840f8d54b376e",
+   "pdf": "headers_footers/1218c2e64afa8cbdcb4880220c7abb6540d38e51_page_3_processed.pdf",
+   "page": 1,
+   "categories": [
+    "headers_footers"
+   ],
+   "group_id": "olmOCR:source:5970967c6930eb24fa0dec01a95ebeef1d0d77c5ec52a95be9add228208c18c4",
+   "pdf_sha256": "e1634bd2eaafeb58b1b7e3f3aa703d1f8115be80b98408ed9875215a9f4eff83",
+   "image_sha256": "d09f7319f80f1b7d62581a117fb2602d4e8d4d4eefe74de29d278aa15e148e72"
+  },
+  {
+   "row_hash": "6b5584aa62e4825ba6d43c7e07db86847211f0f25284863b22067da9e427713c",
+   "pdf": "long_tiny_text/11_pg161_pg1.pdf",
+   "page": 1,
+   "categories": [
+    "long_tiny_text"
+   ],
+   "group_id": "olmOCR:source:ec63db14e8a62dd147c5a9f6f2ca27c7951699e1e691f7b42c3982b94902348a",
+   "pdf_sha256": "2686ac285dde9c73897d19e3f8a8b86de654e9a7427a160c24e139492788ca41",
+   "image_sha256": "e8899fafd118164475e8ec1dd37865e92ca3b6d61afc1098ff5ad503937c52bb"
+  },
+  {
+   "row_hash": "7737ceb57163fc9f2b7791f6734dc88167724ff5b57d6e18fabafc02decf2909",
+   "pdf": "arxiv_math/2503.07281_pg12.pdf",
+   "page": 1,
+   "categories": [
+    "arxiv_math"
+   ],
+   "group_id": "olmOCR:source:aead9584aa2c867fff20f6166a5262f010e0da471e9d5862382f4880d552600c",
+   "pdf_sha256": "16daae01ef9671050db786c7c9f5e32ade9e021317862b7f56abcb0a2e067b10",
+   "image_sha256": "a56f96baa6c9aae3f3e90c9d3538d78a6406639f223a3fbaaa03f26da6c4ff50"
+  },
+  {
+   "row_hash": "7f2ba2ddcf6bf81dbc1b708bf85379055dbe4ce7e2d16d549d5d1a54e5e3c0c7",
+   "pdf": "arxiv_math/2503.08488_pg2.pdf",
+   "page": 1,
+   "categories": [
+    "arxiv_math"
+   ],
+   "group_id": "olmOCR:source:1c30502daae2277fbe8dd92dcf0149491b715677c886ffd558697b2f6ed29417",
+   "pdf_sha256": "a85d94465e4c4b139448a41c0a431212255a56e89f7f777c3b48866de34aed4b",
+   "image_sha256": "42e1e0930aa9a98e9111ed15847d7df6791fc483f638bb29bf499cf81f25ae38"
+  },
+  {
+   "row_hash": "8672fd1225f31051e407e0627bce923163bd12a46b9d303be80a88a392e8f262",
+   "pdf": "old_scans_math/5_pg558.pdf",
+   "page": 1,
+   "categories": [
+    "old_scans_math"
+   ],
+   "group_id": "olmOCR:source:9a401a2594b30b5236983122e1969c90e8d8e03defdcb4c2301e2e907b565af0",
+   "pdf_sha256": "f7a819976115e43a498a94222642305561cd91d181f900f85c6211cfe3b13e0e",
+   "image_sha256": "8c450b01959e9486f011fb219fcb4b4d9ba6c96f6f57491d28677d9f46ba43b7"
+  },
+  {
+   "row_hash": "86d403a26bad5a7b5606da7a03063e6e7b26d681523ddbce1c5671a709db0e80",
+   "pdf": "headers_footers/fc8f9a3029dced611f54efa3a2389d0cfba4680d_page_120.pdf",
+   "page": 1,
+   "categories": [
+    "headers_footers"
+   ],
+   "group_id": "olmOCR:source:346707887a40295bdb511b9011bce039fc05dd1eeb3b8c7ea9363539e6248f21",
+   "pdf_sha256": "942fed68e8a59e12f6a51620e5bd215ab2629bc13c89bb2d912e83bc29810dde",
+   "image_sha256": "477a2b777f317cec6029003e8baac898b1be59d103bca9c2ae09129dc336039a"
+  },
+  {
+   "row_hash": "8b9f02af4bfedc01870d2eba79bc50864dbd1011b9fa11ef6717d951702b3e5d",
+   "pdf": "old_scans/30.pdf",
+   "page": 1,
+   "categories": [
+    "old_scans"
+   ],
+   "group_id": "olmOCR:source:329267f2c000ddc2be0ae887f7e87377e1e57fc8ecc0631c4848c30e808fcfc8",
+   "pdf_sha256": "e8b3f839879b9de71608f6db7b6042f29e87830a49ec1004a44279091e93fbb8",
+   "image_sha256": "b6c38874373e3dada833d1f76f688ff6023eae3bc6bc7a41e435d1b7e43a606e"
+  },
+  {
+   "row_hash": "93ca4ef72f6ed919a94ac22c91ac7d4c91b75a06c4737edaf09f9fcbe3dcd913",
+   "pdf": "multi_column/04e85af12e0a127ebe1a8875250b0f3ab052_page_1_pg1.pdf",
+   "page": 1,
+   "categories": [
+    "multi_column"
+   ],
+   "group_id": "olmOCR:source:0fcc664d991b070b3c4bb063afd67cfeffd8f3b14649d62fc5046e4ae74e4d90",
+   "pdf_sha256": "cf90889c05077e81d2bc20b8fda4decc468c46f4bc532c87f369ed30191abdac",
+   "image_sha256": "b3cf1a425af42accaee66efebe92f1e97c0e2218812b58bfb6bfdb3a92ff0121"
+  },
+  {
+   "row_hash": "a4cfe2f37b9824080191aa57c36d8326573a077df8a2dfd328c09fdb6f3de9bb",
+   "pdf": "arxiv_math/2503.09233_pg16.pdf",
+   "page": 1,
+   "categories": [
+    "arxiv_math"
+   ],
+   "group_id": "olmOCR:source:f49a5eeb38b94f839114ce52b473f937ee400e7e06d65ba8757de01409dfae39",
+   "pdf_sha256": "459b7097455890e665fa4dd385ed83f01d37c9e83f2ec783e9b8355f03d1644a",
+   "image_sha256": "adf95b06dd5901413979db4f4c374751e2a10c2eb54ec2ed491847557a9b6680"
+  },
+  {
+   "row_hash": "b20f2652db53bebaf31e980e7fa597f653853c1a1596cdfdec5d4b100724635b",
+   "pdf": "tables/7b9b73157809310ba970693297b7b998ee1c_pg19.pdf",
+   "page": 1,
+   "categories": [
+    "table_tests"
+   ],
+   "group_id": "olmOCR:source:e8e9faa6232ceaf13491d7b55c7e1f925e5b5e3c7933cb61cb7e50ca032dce3b",
+   "pdf_sha256": "3213cab170d998bbf7add33bba0b7a91d7871ca7c021c3bdad0dc2de1a6c4282",
+   "image_sha256": "a134a62c2e4698537e6c4e3f64e8d3e63ce244434713ab574591a7a75ce658cb"
+  },
+  {
+   "row_hash": "c145b5c3d89274966c5c3ada8d03304c524644e015324d36bd1f470da2de4dd7",
+   "pdf": "arxiv_math/2503.05000_pg9.pdf",
+   "page": 1,
+   "categories": [
+    "arxiv_math"
+   ],
+   "group_id": "olmOCR:source:616784c3910eca63e6063c7c8457c476d4ab43c2b329f6c624f1929105d483d0",
+   "pdf_sha256": "28b0d568ffc1dd147cd2127d7fa7bf6a8b9fd82ecf09d0da3ab1261d2d7c3ccc",
+   "image_sha256": "a82935e70f5e101dd335e46870965c77b72387efbd026fd1c4e334bb7d003064"
+  },
+  {
+   "row_hash": "e939157a8497ab3547b0868573c4df815922ac97a627546b3021ada6671e6856",
+   "pdf": "tables/23dc9c0db39d1b6c519a8fa31c672ff41aac_pg3_pg1.pdf",
+   "page": 1,
+   "categories": [
+    "table_tests"
+   ],
+   "group_id": "olmOCR:source:3f78363d5c1270f1437e2099e2790a5b1173cdedea0ddf2f4dfbf7f3c09947cd",
+   "pdf_sha256": "4bb47f6eb4479e72478fafaf36400e3e3847d28a410e6f776f57b761b6b13d5a",
+   "image_sha256": "e5a641aa17d8f550530450205ccfa474d2e873a00ce8c8ad6cd9fc5fb169a776"
+  },
+  {
+   "row_hash": "ea5bcc7982ec0f904be023275a250a33f1df33997465d809821ef8a38c059120",
+   "pdf": "arxiv_math/2503.04467_pg7.pdf",
+   "page": 1,
+   "categories": [
+    "arxiv_math"
+   ],
+   "group_id": "olmOCR:source:7e7ac4369f6c163b8a66c070a1a74932f576213e7175fc86851e7a8705daa5cd",
+   "pdf_sha256": "53e96cc411269e2ee9602380f1493a23e668e1b2bfa2ca1b38a795e12453c238",
+   "image_sha256": "b783a332f019fcd865ee0f87ddecf11af758ca8143b09362bcb7b9d34ed47cca"
+  },
+  {
+   "row_hash": "f3e564e9b6d0eb97b44831c6d4d130e8d9575fe1cb944850853d7468cb06f7e1",
+   "pdf": "old_scans_math/2_pg238.pdf",
+   "page": 1,
+   "categories": [
+    "old_scans_math"
+   ],
+   "group_id": "olmOCR:source:b5d42d02b4814f28a4fdb44bb01fa89a41252ff9c4ee2fcc2bf1e012966315ea",
+   "pdf_sha256": "b6f15db7cff4bec5274be949a5370583e553b478db337bbb006ba15a52cf4119",
+   "image_sha256": "f679c2b743378346709d8f1f583c92070e583bb8042423c7610ec744b407e6aa"
+  }
+ ],
+ "new32": [
+  {
+   "row_hash": "e2e6e96aa409d3fe7b83322c56b3fb48a2a6cc216a515d147a410c0749c080a2",
+   "pdf": "arxiv_math/2503.09478_pg23.pdf",
+   "page": 1,
+   "categories": [
+    "arxiv_math"
+   ],
+   "group_id": "olmOCR:source:fbeb1c213c15c3df9663bc44ba136bbec5ede707e88630ddc5c5a3379e3e67a1",
+   "pdf_sha256": "c44913f417e49d5f005f7e497a30053b0a50c8509f079a93218e8f7050a71fe7",
+   "image_sha256": "288634c5a1a7e3acd0b58b1ec5a8967f2bc71ee03176d4633a63ea15275bbdc0"
+  },
+  {
+   "row_hash": "6b3369b0f2d66c1526affefefffb96a2cef79a60d713e02a482a5c8ddcafbca1",
+   "pdf": "headers_footers/1596c5fcd2f89b0fd3a3aa06c13034dc09317d6f_page_12.pdf",
+   "page": 1,
+   "categories": [
+    "headers_footers"
+   ],
+   "group_id": "olmOCR:source:398cdf3b4c992ceba6fe4e040977c1fe84f3aa817447132e01aa6e9f3aaa33a2",
+   "pdf_sha256": "f47619ba174d6cd5ed2ca746f2772873402e475dfa38fe937ed4dfdce06653d1",
+   "image_sha256": "27fa2ad7a1c91d0fd1eb5617deafe232170c931ee03417735c36653b2ccd1730"
+  },
+  {
+   "row_hash": "de1ce373ee0f18e347f91b343356df95d96b6c4056a2c2419b46fb035c6fab14",
+   "pdf": "long_tiny_text/20_pg35_pg1.pdf",
+   "page": 1,
+   "categories": [
+    "long_tiny_text"
+   ],
+   "group_id": "olmOCR:source:c5ba8bc6ce2d001fa1a978363571a82dbc637f0a11b4218d8beef21c6171d98d",
+   "pdf_sha256": "67baffc46a18289b7cb97d9dd87ebf349dbc2f1b72b1fe5325bafe9b15c5562b",
+   "image_sha256": "d29bef465bf963da87c21b62fbaa832e7f51806d5a6eda7a7a5fb2d1fb30bf09"
+  },
+  {
+   "row_hash": "a1504b4d4b55ced1feb1cb1055cf5bec5aa61756ee2780cca6346f34c0c96f08",
+   "pdf": "multi_column/0514f6672af23035c53e13fa9f5d7e17e4a4_page_4_pg1.pdf",
+   "page": 1,
+   "categories": [
+    "multi_column"
+   ],
+   "group_id": "olmOCR:source:7caf426ea84f99a45bc81ec1bd7413da141f02d04935b8cf4089f973eae21bbb",
+   "pdf_sha256": "7d582bf160bedcb9a7c156fd3f23ebf1461abfa4d025c54c5e659792ce859b30",
+   "image_sha256": "54b5d63607683c996b7c56d9f7b8fa31dfaa77482296cd781d2960100c4fc727"
+  },
+  {
+   "row_hash": "788cf291f5fe15b38e539aa63d43ec3d0cadbf9b7bdf56cc452d770a8781406d",
+   "pdf": "old_scans/93.pdf",
+   "page": 1,
+   "categories": [
+    "old_scans"
+   ],
+   "group_id": "olmOCR:source:1a6e1468ca2b90cf1700597e8214aa99419b9f205308916f3cdbcbd8a4bdf1fe",
+   "pdf_sha256": "5f103164187d6a8cf46dc817e34a80609d55335cde48c19b51497081b9a28d97",
+   "image_sha256": "613f11fb6d0e4b114bf4b8907528550adfcf0a179a7a06e96f131f6c7c542338"
+  },
+  {
+   "row_hash": "1ddbf122dbbad65a203bc78db3d85b4147c064b951a1522e84d92c0fd2d29862",
+   "pdf": "old_scans_math/3_pg634.pdf",
+   "page": 1,
+   "categories": [
+    "old_scans_math"
+   ],
+   "group_id": "olmOCR:source:c8a427abed6a1ac98af50d5c8238dc1512b64fba7daf66179aac28e4699fdb6f",
+   "pdf_sha256": "c6817819a70cf0f147ff08f0a5c6e25e6690387008e38cd931a60592b92aa7ec",
+   "image_sha256": "eb0ea2e36d3b26517636aa66c3ca10c936b104e5350b732176557a5559175bff"
+  },
+  {
+   "row_hash": "20997bfe7a3a52d6d70d70a351b6429c9fe2261ff15347b8408611b58d90293a",
+   "pdf": "tables/8926022d05e57a6e44113fd0eaa54d0aca11_pg1_pg1.pdf",
+   "page": 1,
+   "categories": [
+    "table_tests"
+   ],
+   "group_id": "olmOCR:source:a2a53db87a4f0a1c89ca88258d2e04a8f665433c58067af77331f621e1a570ef",
+   "pdf_sha256": "796e32e7ce7736112d3e2343c1183eb2f01f661df0061bef13cb3c175ddbd302",
+   "image_sha256": "7637a20d77bf475134557aa0be5624b8a7e19b97d0c0d21f3ef7f5fe0b8d7310"
+  },
+  {
+   "row_hash": "6f3b92764e1527fdbc5ae07853c9f13d849dc4a86296cfcbc565369ad15d3e8e",
+   "pdf": "arxiv_math/2503.07361_pg12.pdf",
+   "page": 1,
+   "categories": [
+    "arxiv_math"
+   ],
+   "group_id": "olmOCR:source:b38b85ab708b3665bc44db6c83b81d9d04d4e6fb963a638d2abaf0ebf721ca7d",
+   "pdf_sha256": "236f4c83f48ee9ac287b3953306fbcbd579e9e3e509f14395e15ab5c829fdd57",
+   "image_sha256": "a8338b25aa71afe0a6bfc0d179a68b4e2fcedeae61ab4cc319ffe35e3208c210"
+  },
+  {
+   "row_hash": "557ac10dba2174db04575155522bb1260aa336c75545de5554e419487b8116b8",
+   "pdf": "headers_footers/7881b598b8eee0c5a1f88dc84a36c1c70cc13995_page_1.pdf",
+   "page": 1,
+   "categories": [
+    "headers_footers"
+   ],
+   "group_id": "olmOCR:source:18a0ea0ae0fb442cdd099ca997f649c190b5fc42fdb786b6c446ed2b8671cb29",
+   "pdf_sha256": "2c9423b129a1e48d2dc406f62579b1538f558f68cd16d3fbbf2fedc20204a5cc",
+   "image_sha256": "55e39bd763593535930b03b61951d0427033009a4b4a56a0724b0ba63f006e87"
+  },
+  {
+   "row_hash": "bbb89dae308f2e3760d6d3c794eff97fa8eaffa711d6e0eff17f95039ea700e0",
+   "pdf": "long_tiny_text/10c_pg1.pdf",
+   "page": 1,
+   "categories": [
+    "long_tiny_text"
+   ],
+   "group_id": "olmOCR:source:2824f69bc09cab6ceafd4e54c44f6bec3d99f6845c2b9039a6fa732ee344d475",
+   "pdf_sha256": "9b4477326521fc7cc6ac0b57d06a5320838efab1ebf081064120294b94e4033e",
+   "image_sha256": "c2b028d434587837780b0c248e617d3c29f5bbf092d623b569f78ffc242bf020"
+  },
+  {
+   "row_hash": "13d474b0257e13dbb8c1818fc5e3a701202676a7f4c13af0649fa9e94f8afa09",
+   "pdf": "multi_column/013a3686ef75b4150c07d3ebc510ca2455d6_page_3_pg1.pdf",
+   "page": 1,
+   "categories": [
+    "multi_column"
+   ],
+   "group_id": "olmOCR:source:7f9a8cb18c0b8d34c5f1a5c64ce8d099fd798c44da71ca7d8b106ff1758ede54",
+   "pdf_sha256": "3ac04f1157b74108c1ef8e2f9173ef07f14c351f2c22b84c4329d0c499a0f6eb",
+   "image_sha256": "8064f3ed3805738754dbadd7a857daeef04cfbc2319a7c5d03f613a590e7efac"
+  },
+  {
+   "row_hash": "fb041fb1575275ca9d0b33fb95b48840ff68f41299a0dd4a26b38dbb649b5270",
+   "pdf": "old_scans/63.pdf",
+   "page": 1,
+   "categories": [
+    "old_scans"
+   ],
+   "group_id": "olmOCR:source:d9375990a1beb22354627e8f0c78f88eadf71911859e47c6dcd7d12f8547c99f",
+   "pdf_sha256": "64ac9e067732da3c9a8e8ce9fac71cdf0dc6b59e00de2b74b405370429c7dd26",
+   "image_sha256": "0a802a5865cc38e2e4865c191f98f2434fd018e42ceb93dfd6132bfa5ff26a11"
+  },
+  {
+   "row_hash": "94e35abfff05e893e3783eb48acd76bb65cc82364c46a3e4d7c9aea6ae336cf2",
+   "pdf": "old_scans_math/4_pg355.pdf",
+   "page": 1,
+   "categories": [
+    "old_scans_math"
+   ],
+   "group_id": "olmOCR:source:c3e5d9629b621da289db99f65e2566e544b950a7c9be146fb2b66d7b95ef9031",
+   "pdf_sha256": "173e52d35b1d658fc05bf357b5801f90d425b45ec1ffecb380fcd177ae9d28c4",
+   "image_sha256": "a6debc6403e82edf5dc7d81057807a14e5ae75e68240566e5bd32645a7f7e567"
+  },
+  {
+   "row_hash": "18b5123e3a06a80a1494e6c7a94fd37cbc248572d1d294f7a7ebcdfdf5abbfc0",
+   "pdf": "tables/4e51a97232ca26f3f9acad0e3b6f2b0b71bf_pg1.pdf",
+   "page": 1,
+   "categories": [
+    "table_tests"
+   ],
+   "group_id": "olmOCR:source:fff038043c25344813fbaf67af26dd1b066aa23de0898f3e6230d715dcf5e88e",
+   "pdf_sha256": "833c71206d31fdd10b71d9cdc855c266c79b65267f5e44bf769e3d8687911db3",
+   "image_sha256": "92b2f5e8211a14582145665fcbd13390c3ff70fc39fecc9daf2d072b8e634bd7"
+  },
+  {
+   "row_hash": "c82b84060739da1b161bfc1fb77e387a9af0b89dcdeafbd666b7f87a6e123535",
+   "pdf": "arxiv_math/2503.05270_pg21.pdf",
+   "page": 1,
+   "categories": [
+    "arxiv_math"
+   ],
+   "group_id": "olmOCR:source:431174cce83f76b075012889559ab7ce0a6c3ec74fc8922054c5c5a151dd127a",
+   "pdf_sha256": "d4ff577812b8ebc85973b038d221309b36991a3071a04cb9d6a404da7274ba3b",
+   "image_sha256": "7569471f0e1f2e133add3b25556394a63a72fabe2d55c55720632d63346a15ab"
+  },
+  {
+   "row_hash": "ff7f45a631decc7274fa1050216b3d0e7a14f8be57c2a1d3aca9c86f2ece2e17",
+   "pdf": "headers_footers/0184e1ce9b195bfac4ad93da3bd40d8e7ccd75d2_page_6_processed.pdf",
+   "page": 1,
+   "categories": [
+    "headers_footers"
+   ],
+   "group_id": "olmOCR:source:8ebe1c4918fe411a6d9de8236e7fc338a65ded78c4dcecd1f1ea5453a8025045",
+   "pdf_sha256": "15e6f658bf1bffc09e0f17ec0999c8ee8b024ad8682ba2f6e5ebac743e08b1cc",
+   "image_sha256": "d30c5bfe06bee3270e97742fca0a8390ce302a12c06f41d73813a0e42a06e540"
+  },
+  {
+   "row_hash": "0ecad2e3df20d259eaefa32c98d8e57e3c5498ded4184ec6f339643de384232d",
+   "pdf": "long_tiny_text/15d_pg1.pdf",
+   "page": 1,
+   "categories": [
+    "long_tiny_text"
+   ],
+   "group_id": "olmOCR:source:6d6d640d0e42888a8b26e2f7a3fd46506d3b03a6428a8fab1de9f0cac3131eb3",
+   "pdf_sha256": "74ca366f4644978f7f65c239e7292c55072a568b622385eb4e9ebe9a1627d2e0",
+   "image_sha256": "64eaecd8a2a2af29a2021cc90ecb5cf09cde0f7fc04e7afe9821c1d31e166868"
+  },
+  {
+   "row_hash": "4a9df82a7993d61c8b9b644efb247e79be54a61c80d38d05bb53a54aa3954fbd",
+   "pdf": "multi_column/06ba2a90e81d76b586e6b884bf67133012a9_page_8_pg1.pdf",
+   "page": 1,
+   "categories": [
+    "multi_column"
+   ],
+   "group_id": "olmOCR:source:4892e2a7913991064bcc31d3818f69363e7c2624dd43e9a70c7549c7ca0d70f3",
+   "pdf_sha256": "2855ad0628383a43186aeb0019ad7eb6dc9b85ff8c16221394bbaa1e298a5f52",
+   "image_sha256": "733c37744fac17801781c84eed2d5b71908bd65c37cd9600192f98582951f58f"
+  },
+  {
+   "row_hash": "4682d1fc83ffa41afb14c71db4339a89c1394e09a5c63d27dd5a93a22fde2799",
+   "pdf": "tables/1c42d782fce429d7796cbac6fc7956e06ec7_pg41_pg1.pdf",
+   "page": 1,
+   "categories": [
+    "table_tests"
+   ],
+   "group_id": "olmOCR:source:78c1bd0ad29294ebaf184233bf5b21de5772c4ca89bb85a1c1eec452ea579013",
+   "pdf_sha256": "3c54f25c8af6543c5d812b444d0e8b8fe3d22a4c5a79cc3275c9c21cf14c7f1e",
+   "image_sha256": "7acfe56439e127b18a89b96c7df60e39be5ae69fd18931690b5aa16bc2228d33"
+  },
+  {
+   "row_hash": "5c22c53a5764ef96578bd68684e1a9ed21b2b6f39f4d6a6278a4c2b9075ccd53",
+   "pdf": "arxiv_math/2503.09550_pg2.pdf",
+   "page": 1,
+   "categories": [
+    "arxiv_math"
+   ],
+   "group_id": "olmOCR:source:100f84fa08c7e4af05ffe4b21f0c31fc93750dfd410cc6c7811ca2249d0357df",
+   "pdf_sha256": "f055e99b918f13eef78aba7a3e9fc82dc1811ad9eb8eb5d4411be6fbaefdfd3a",
+   "image_sha256": "3b8166f2c4ac9333036ca8bec1c6694f4debac9de477592eb9949101321d4a06"
+  },
+  {
+   "row_hash": "f9f052c556cb72d7d15b2b44d184876a6184fc60da0cb9bb97b69a20e1b248a8",
+   "pdf": "headers_footers/b7d405094e779c1318d2e43b1fc897991989fb06_page_1.pdf",
+   "page": 1,
+   "categories": [
+    "headers_footers"
+   ],
+   "group_id": "olmOCR:source:37143b3f4dc1515ca5dad509e8a90ed269b6713231ee9f8750c45489ac43931d",
+   "pdf_sha256": "a00af5961c7c0a1c0ac1f53e56927b0fd69084351c3914e7c3964a94c01a3b93",
+   "image_sha256": "25f6b071c53642e54c0b325b7fbfa95f1f5a5d420e41f7690a3e518d9d991af1"
+  },
+  {
+   "row_hash": "5610ff6709596154c6e7c4f715ea685f8ac04e95b1632387df3a11205f79b182",
+   "pdf": "long_tiny_text/13_pg67_pg1.pdf",
+   "page": 1,
+   "categories": [
+    "long_tiny_text"
+   ],
+   "group_id": "olmOCR:source:7edbc23a65218be6947ef976bac5972e3ac5ac8adfe5405c9800f0e9e0376363",
+   "pdf_sha256": "efd9793459b06cc6aff7ffaab99435ae3bb7d935e4d43c8431cdd04bdad38568",
+   "image_sha256": "83b5bdd72604a399a2e3cd0afabee1df52f35c58a3e7563a5a38f483cd61b32f"
+  },
+  {
+   "row_hash": "f34c02f2c2d73128d74de64353a34e6c5e84d93db5e6b31af3c411d37d381548",
+   "pdf": "multi_column/0621a0090414e4681e90a4e1ea543acca910_page_11_pg1.pdf",
+   "page": 1,
+   "categories": [
+    "multi_column"
+   ],
+   "group_id": "olmOCR:source:a3f5842b9e7d4c16d24b010e500222f4c95935b61e5a2e092432fe59b872ea16",
+   "pdf_sha256": "bc12f1cb671a30f52ca1f7f1c88dfeb79aad7f1158b9b593b189b9beffe39323",
+   "image_sha256": "1702fe566c9870a9c79719a00426c69e82767d6cdb8db4140dfdfcf96d234227"
+  },
+  {
+   "row_hash": "573f00ad7a9bcf8acebabf68ac22feae74090b0286f6b04b8a9f47684505d83c",
+   "pdf": "tables/2f0737485cb49295dd0c2ef384316059d534_pg23_pg1.pdf",
+   "page": 1,
+   "categories": [
+    "table_tests"
+   ],
+   "group_id": "olmOCR:source:8799d9089db79861bbd9791f3267456671afa70deb58931894109eda577b2c13",
+   "pdf_sha256": "53de5982272f97e0ebb4ef08c0f30c56450ccfe1ac0db0d14d1161e41f89547f",
+   "image_sha256": "7f34b1adb242882cea506fa10c2a22830123cd03ded4deb81a9d38491bca0363"
+  },
+  {
+   "row_hash": "02f4aad8e127adacc7192c01cf58ce95632bcd276979200df10b7139d26941a5",
+   "pdf": "arxiv_math/2503.09574_pg27.pdf",
+   "page": 1,
+   "categories": [
+    "arxiv_math"
+   ],
+   "group_id": "olmOCR:source:49f16035be6511bff2bd2e6b708de765d8a4674589846bdf5bab1b32d31a744d",
+   "pdf_sha256": "7a064267d6a8fe47506cf83f612fa5ceb5687e46fd4cbe8bedb38b16e87d98a8",
+   "image_sha256": "6523650bdc0c1a01fbf0872039b84588d69eaa6bd4a6687ea08c507a52e22d55"
+  },
+  {
+   "row_hash": "8084c7af1b090bb435192fdab26168c2351662d44dca2686b8e23c4e38247da0",
+   "pdf": "headers_footers/dd9587961183e62e57bbcb75b084ca4066a726c2_page_3.pdf",
+   "page": 1,
+   "categories": [
+    "headers_footers"
+   ],
+   "group_id": "olmOCR:source:a3d0633a65261869a8f5d922533b76568f4c97360d3e4cf864349fe8d5d88ace",
+   "pdf_sha256": "07fefa9ad9321dbe55a287aa8d6337a49074fb7b2782c71f88921d4300dfcc29",
+   "image_sha256": "85569e4305d6b6a5fc203a3575f402ea1126f300f5eaae1577f40d013e126383"
+  },
+  {
+   "row_hash": "566bbd2f275dc14343ec6e7e1867eff34aef32f0fef2649005ffc477f23e0bb9",
+   "pdf": "multi_column/00d8a44d3066bbc4bd8df149d0dafb96f423_page_1_pg1.pdf",
+   "page": 1,
+   "categories": [
+    "multi_column"
+   ],
+   "group_id": "olmOCR:source:a12f670f0fc09809d55f10e61e8fd2ea0a17b7e248bdb1013e1ccd648908dd8a",
+   "pdf_sha256": "b63f3d31830eb932e9f54dd99e0d5ba60b1a16b42dd273583446e5d66e132616",
+   "image_sha256": "197d87f13ac2bde675dd57ef385d144c787ce51964fdef7632f5a3b0c48ae160"
+  },
+  {
+   "row_hash": "d22eed4754fb938215494683809877cecded656eb5dc6a99f7a14c997195e7ba",
+   "pdf": "tables/acd61dce81c4b91c1f2289b50c88939fba17_pg1.pdf",
+   "page": 1,
+   "categories": [
+    "table_tests"
+   ],
+   "group_id": "olmOCR:source:c4d2fd20e736d3284d6fdd13effe7cb608977041a50292990acbea93ada19b0f",
+   "pdf_sha256": "e7ee9cd0d48397e288944097efb4e056dfbe766a800d98a3825b21a40c9e6479",
+   "image_sha256": "fc868cfeacc1f90cfcd156b5a28c774980837e3da9540ca8057d032943eb640e"
+  },
+  {
+   "row_hash": "77781b116e42cc5657ca65c68f81ea2212395a654b99772b4b1718c53f186949",
+   "pdf": "arxiv_math/2503.06944_pg2.pdf",
+   "page": 1,
+   "categories": [
+    "arxiv_math"
+   ],
+   "group_id": "olmOCR:source:4b94bb18a11ef81e0602e65f58d904dc75416f8a601edfa7352cc02c5cfb3cb5",
+   "pdf_sha256": "a8f6bae0371df24bb39c365f730836bb3617c2a0c6f4d51138f9ae759f01a321",
+   "image_sha256": "f6e1138a40cd09c1f3577ef3ffd7eab3e935ba59a706da8397105fd74f8609fd"
+  },
+  {
+   "row_hash": "e4afd762efe1267df5cc1b4273d4b668562c350f5f4382a8b6a84ca531c7758b",
+   "pdf": "headers_footers/fc5b2acd2b4af4c9fdcf1f53d157589cba990759_page_17.pdf",
+   "page": 1,
+   "categories": [
+    "headers_footers"
+   ],
+   "group_id": "olmOCR:source:7dcb09288681b5e0fffbcd1e955ca53d599f58936c2247e7a295ae8b25ac6da1",
+   "pdf_sha256": "2830f164f55191cefb888ddb7b34889b465b49175546406e9ebf3aca54ec4494",
+   "image_sha256": "ca3592531781b1ee4ece729c50ea3ec3daee4efe18595036e1bd15622ead5d6e"
+  },
+  {
+   "row_hash": "7b6a8ae826669a6133d74280122a55b56380416573ceab7dbfaaa4350040f604",
+   "pdf": "multi_column/06032fa18b312e3f7186a1cbd6c11cc4b1a4_page_13_pg1.pdf",
+   "page": 1,
+   "categories": [
+    "multi_column"
+   ],
+   "group_id": "olmOCR:source:c54f0006cad83164581e6ffda07ff069a9d234faa84ab29643da37887250163a",
+   "pdf_sha256": "fef4815def861920210fc9c9cff55293d523ddebcfebde720782084ac6f10681",
+   "image_sha256": "80976c1a7c6bf797e95ad98be060c54b806c1aaa03a3174de64a443dddc474a9"
+  },
+  {
+   "row_hash": "a519297ec9df6f75bc868ea17b9ac634d917a43f37d682a9edf870c0d1790af3",
+   "pdf": "tables/2d071f8347f2bd34176c4957ee69cb2d26e6_pg8.pdf",
+   "page": 1,
+   "categories": [
+    "table_tests"
+   ],
+   "group_id": "olmOCR:source:606bde7765e0a24a9c0d53efaae139aa5370da2ccf8fb5b165acea279d72011b",
+   "pdf_sha256": "0a699291a76adc2a132e932835a2344ad865d315030584e05d7cfda8e8087b79",
+   "image_sha256": "c017af2eaf3eac254d61a68860dcef90378bb81d349178be612e11be359ceb9c"
+  }
+ ],
+ "cells": [
+  {
+   "donate": false,
+   "name": "all_tokens_full_history",
+   "policy": "full",
+   "profile": null,
+   "vision": 100
+  },
+  {
+   "donate": false,
+   "name": "vision70_full_history",
+   "policy": "full",
+   "profile": null,
+   "vision": 70
+  },
+  {
+   "donate": false,
+   "name": "all_tokens_recency256",
+   "policy": "protected_recency",
+   "profile": 256,
+   "vision": 100
+  },
+  {
+   "donate": false,
+   "name": "vision70_recency256",
+   "policy": "protected_recency",
+   "profile": 256,
+   "vision": 70
+  },
+  {
+   "donate": true,
+   "name": "vision70_donate256",
+   "policy": "protected_recency",
+   "profile": 256,
+   "vision": 70
+  },
+  {
+   "donate": false,
+   "name": "all_tokens_h2o256",
+   "policy": "h2o",
+   "profile": 256,
+   "vision": 100
+  },
+  {
+   "donate": false,
+   "name": "all_tokens_rkv256",
+   "policy": "rkv",
+   "profile": 256,
+   "vision": 100
+  },
+  {
+   "donate": false,
+   "name": "all_tokens_recency512",
+   "policy": "protected_recency",
+   "profile": 512,
+   "vision": 100
+  },
+  {
+   "donate": false,
+   "name": "vision70_recency512",
+   "policy": "protected_recency",
+   "profile": 512,
+   "vision": 70
+  },
+  {
+   "donate": true,
+   "name": "vision70_donate512",
+   "policy": "protected_recency",
+   "profile": 512,
+   "vision": 70
+  },
+  {
+   "donate": false,
+   "name": "all_tokens_h2o512",
+   "policy": "h2o",
+   "profile": 512,
+   "vision": 100
+  },
+  {
+   "donate": false,
+   "name": "all_tokens_rkv512",
+   "policy": "rkv",
+   "profile": 512,
+   "vision": 100
+  }
+ ]
+}

@@ -1,0 +1,16 @@
+{
+ "model": "llava_next",
+ "requests": 96,
+ "threshold": 0.53,
+ "gpu": "NVIDIA A100-SXM4-40GB",
+ "uniform40_mean_ms": 391.46826197005186,
+ "gate_mean_ms": 669.4725815226169,
+ "ratio_mean": 1.7101580040065494,
+ "uniform40_p50_ms": 297.64153342694044,
+ "gate_p50_ms": 534.3764461576939,
+ "uniform40_p90_ms": 721.7185329645872,
+ "gate_p90_ms": 1637.770271860063,
+ "accept_at_10": 0.4270833333333333,
+ "gate_ms_when_accepted": 419.4563100250756,
+ "gate_ms_when_escalated": 855.8483475480567
+}

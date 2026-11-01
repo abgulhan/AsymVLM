@@ -1,0 +1,866 @@
+[
+ {
+  "model": "qwen25",
+  "dataset": "TextVQA",
+  "comparator": "all_tokens",
+  "difference_pp": -0.09765624999999992,
+  "lower_95_pp": -1.35459117727563,
+  "upper_95_pp": 1.1246422471495168
+ },
+ {
+  "model": "qwen25",
+  "dataset": "TextVQA",
+  "comparator": "divprune",
+  "difference_pp": 3.5546875000000004,
+  "lower_95_pp": 1.6084493500067476,
+  "upper_95_pp": 5.4509037683209565
+ },
+ {
+  "model": "qwen25",
+  "dataset": "TextVQA",
+  "comparator": "cdpruner",
+  "difference_pp": 5.76171875,
+  "lower_95_pp": 3.3794331305583007,
+  "upper_95_pp": 8.262207031249996
+ },
+ {
+  "model": "qwen25",
+  "dataset": "DocVQA",
+  "comparator": "all_tokens",
+  "difference_pp": -3.1203529840901845,
+  "lower_95_pp": -4.6569230470545255,
+  "upper_95_pp": -1.6256111356458558
+ },
+ {
+  "model": "qwen25",
+  "dataset": "DocVQA",
+  "comparator": "divprune",
+  "difference_pp": 6.4634098940025435,
+  "lower_95_pp": 3.1486138631357714,
+  "upper_95_pp": 9.794368501661395
+ },
+ {
+  "model": "qwen25",
+  "dataset": "DocVQA",
+  "comparator": "cdpruner",
+  "difference_pp": 15.27750041838069,
+  "lower_95_pp": 11.015837210660536,
+  "upper_95_pp": 19.79074435184714
+ },
+ {
+  "model": "qwen25",
+  "dataset": "ChartQA",
+  "comparator": "all_tokens",
+  "difference_pp": -2.1484375,
+  "lower_95_pp": -4.6008301158301155,
+  "upper_95_pp": 0.19122293867874315
+ },
+ {
+  "model": "qwen25",
+  "dataset": "ChartQA",
+  "comparator": "divprune",
+  "difference_pp": 2.1484375,
+  "lower_95_pp": -0.3853750530051108,
+  "upper_95_pp": 4.627902550437761
+ },
+ {
+  "model": "qwen25",
+  "dataset": "ChartQA",
+  "comparator": "cdpruner",
+  "difference_pp": 13.8671875,
+  "lower_95_pp": 9.779335851623326,
+  "upper_95_pp": 17.96043218799806
+ },
+ {
+  "model": "qwen25",
+  "dataset": "MME",
+  "comparator": "all_tokens",
+  "difference_pp": -3.7109375,
+  "lower_95_pp": -6.008925327034883,
+  "upper_95_pp": -1.574803149606299
+ },
+ {
+  "model": "qwen25",
+  "dataset": "MME",
+  "comparator": "divprune",
+  "difference_pp": 0.78125,
+  "lower_95_pp": -1.7786561264822136,
+  "upper_95_pp": 3.307715983706224
+ },
+ {
+  "model": "qwen25",
+  "dataset": "MME",
+  "comparator": "cdpruner",
+  "difference_pp": 0.78125,
+  "lower_95_pp": -1.9381730160166502,
+  "upper_95_pp": 3.346456692913386
+ },
+ {
+  "model": "qwen25",
+  "dataset": "InfographicVQA",
+  "comparator": "all_tokens",
+  "difference_pp": -5.015360233739146,
+  "lower_95_pp": -7.730990002335029,
+  "upper_95_pp": -2.212634608777915
+ },
+ {
+  "model": "qwen25",
+  "dataset": "InfographicVQA",
+  "comparator": "divprune",
+  "difference_pp": 11.947485683825079,
+  "lower_95_pp": 7.606601763164578,
+  "upper_95_pp": 16.261805213657922
+ },
+ {
+  "model": "qwen25",
+  "dataset": "InfographicVQA",
+  "comparator": "cdpruner",
+  "difference_pp": 12.968455865945938,
+  "lower_95_pp": 8.873970554765883,
+  "upper_95_pp": 17.14101908842879
+ },
+ {
+  "model": "qwen25",
+  "dataset": "OCRVQA_TESTCORE",
+  "comparator": "all_tokens",
+  "difference_pp": -1.3671875,
+  "lower_95_pp": -3.1251528864970646,
+  "upper_95_pp": 0.1941842015790865
+ },
+ {
+  "model": "qwen25",
+  "dataset": "OCRVQA_TESTCORE",
+  "comparator": "divprune",
+  "difference_pp": 0.0,
+  "lower_95_pp": -1.9306889946424828,
+  "upper_95_pp": 1.761252446183953
+ },
+ {
+  "model": "qwen25",
+  "dataset": "OCRVQA_TESTCORE",
+  "comparator": "cdpruner",
+  "difference_pp": 2.1484375,
+  "lower_95_pp": 0.0,
+  "upper_95_pp": 4.400220440881762
+ },
+ {
+  "model": "llava_next",
+  "dataset": "TextVQA",
+  "comparator": "all_tokens",
+  "difference_pp": 0.5859374999999998,
+  "lower_95_pp": -1.5205420778508771,
+  "upper_95_pp": 2.6667670682730917
+ },
+ {
+  "model": "llava_next",
+  "dataset": "TextVQA",
+  "comparator": "divprune",
+  "difference_pp": 2.8515624999999996,
+  "lower_95_pp": 0.4686817354368934,
+  "upper_95_pp": 5.3360314523589265
+ },
+ {
+  "model": "llava_next",
+  "dataset": "TextVQA",
+  "comparator": "cdpruner",
+  "difference_pp": 8.613281249999998,
+  "lower_95_pp": 5.475377191141968,
+  "upper_95_pp": 11.934273514093134
+ },
+ {
+  "model": "llava_next",
+  "dataset": "DocVQA",
+  "comparator": "all_tokens",
+  "difference_pp": -1.33623841417106,
+  "lower_95_pp": -3.612524081917274,
+  "upper_95_pp": 0.9308489568102837
+ },
+ {
+  "model": "llava_next",
+  "dataset": "DocVQA",
+  "comparator": "divprune",
+  "difference_pp": 4.636609706628432,
+  "lower_95_pp": 1.8446932450324778,
+  "upper_95_pp": 7.6493515555593765
+ },
+ {
+  "model": "llava_next",
+  "dataset": "DocVQA",
+  "comparator": "cdpruner",
+  "difference_pp": 11.99539952346699,
+  "lower_95_pp": 8.796715255361494,
+  "upper_95_pp": 15.265476715533941
+ },
+ {
+  "model": "llava_next",
+  "dataset": "ChartQA",
+  "comparator": "all_tokens",
+  "difference_pp": 1.171875,
+  "lower_95_pp": -0.594059405940594,
+  "upper_95_pp": 2.9769360148869124
+ },
+ {
+  "model": "llava_next",
+  "dataset": "ChartQA",
+  "comparator": "divprune",
+  "difference_pp": 0.78125,
+  "lower_95_pp": -1.671495932618242,
+  "upper_95_pp": 3.0480569239189905
+ },
+ {
+  "model": "llava_next",
+  "dataset": "ChartQA",
+  "comparator": "cdpruner",
+  "difference_pp": 1.3671875,
+  "lower_95_pp": -1.1517982199364156,
+  "upper_95_pp": 3.9338289235584676
+ },
+ {
+  "model": "llava_next",
+  "dataset": "MME",
+  "comparator": "all_tokens",
+  "difference_pp": -1.171875,
+  "lower_95_pp": -2.7240013983463034,
+  "upper_95_pp": 0.3861003861003861
+ },
+ {
+  "model": "llava_next",
+  "dataset": "MME",
+  "comparator": "divprune",
+  "difference_pp": 0.1953125,
+  "lower_95_pp": -1.7243037135278514,
+  "upper_95_pp": 1.9843246063365576
+ },
+ {
+  "model": "llava_next",
+  "dataset": "MME",
+  "comparator": "cdpruner",
+  "difference_pp": -0.1953125,
+  "lower_95_pp": -2.1653543307086616,
+  "upper_95_pp": 1.7647058823529411
+ },
+ {
+  "model": "llava_next",
+  "dataset": "InfographicVQA",
+  "comparator": "all_tokens",
+  "difference_pp": -0.9404718952533977,
+  "lower_95_pp": -2.881463723371067,
+  "upper_95_pp": 0.967704267002275
+ },
+ {
+  "model": "llava_next",
+  "dataset": "InfographicVQA",
+  "comparator": "divprune",
+  "difference_pp": 1.7500707396157764,
+  "lower_95_pp": -0.35372894201504346,
+  "upper_95_pp": 4.01677423105994
+ },
+ {
+  "model": "llava_next",
+  "dataset": "InfographicVQA",
+  "comparator": "cdpruner",
+  "difference_pp": 1.8908743230997858,
+  "lower_95_pp": -0.9578912675991168,
+  "upper_95_pp": 4.782073699492892
+ },
+ {
+  "model": "llava_next",
+  "dataset": "OCRVQA_TESTCORE",
+  "comparator": "all_tokens",
+  "difference_pp": -1.171875,
+  "lower_95_pp": -2.500606796116505,
+  "upper_95_pp": 0.0
+ },
+ {
+  "model": "llava_next",
+  "dataset": "OCRVQA_TESTCORE",
+  "comparator": "divprune",
+  "difference_pp": 0.5859375,
+  "lower_95_pp": -1.1651052094745193,
+  "upper_95_pp": 2.34375
+ },
+ {
+  "model": "llava_next",
+  "dataset": "OCRVQA_TESTCORE",
+  "comparator": "cdpruner",
+  "difference_pp": 3.7109375,
+  "lower_95_pp": 0.7721635756317837,
+  "upper_95_pp": 6.641276041666663
+ },
+ {
+  "model": "phi35",
+  "dataset": "TextVQA",
+  "comparator": "all_tokens",
+  "difference_pp": -0.23437500000000003,
+  "lower_95_pp": -1.666826923076923,
+  "upper_95_pp": 1.210769696554243
+ },
+ {
+  "model": "phi35",
+  "dataset": "TextVQA",
+  "comparator": "divprune",
+  "difference_pp": 8.45703125,
+  "lower_95_pp": 5.1396431334622825,
+  "upper_95_pp": 12.141488913836655
+ },
+ {
+  "model": "phi35",
+  "dataset": "TextVQA",
+  "comparator": "cdpruner",
+  "difference_pp": 4.160156249999999,
+  "lower_95_pp": 1.5725305425511447,
+  "upper_95_pp": 6.909328752642704
+ },
+ {
+  "model": "phi35",
+  "dataset": "DocVQA",
+  "comparator": "all_tokens",
+  "difference_pp": -3.2093300179398794,
+  "lower_95_pp": -5.266139524644197,
+  "upper_95_pp": -1.0734491948244562
+ },
+ {
+  "model": "phi35",
+  "dataset": "DocVQA",
+  "comparator": "divprune",
+  "difference_pp": 19.850456073985768,
+  "lower_95_pp": 15.380735164058931,
+  "upper_95_pp": 24.271638327144693
+ },
+ {
+  "model": "phi35",
+  "dataset": "DocVQA",
+  "comparator": "cdpruner",
+  "difference_pp": 16.248615731216002,
+  "lower_95_pp": 12.446530804126379,
+  "upper_95_pp": 20.416478841899924
+ },
+ {
+  "model": "phi35",
+  "dataset": "ChartQA",
+  "comparator": "all_tokens",
+  "difference_pp": -0.78125,
+  "lower_95_pp": -2.5742574257425743,
+  "upper_95_pp": 0.9561146933937158
+ },
+ {
+  "model": "phi35",
+  "dataset": "ChartQA",
+  "comparator": "divprune",
+  "difference_pp": 11.1328125,
+  "lower_95_pp": 7.448638534692312,
+  "upper_95_pp": 14.97169179107467
+ },
+ {
+  "model": "phi35",
+  "dataset": "ChartQA",
+  "comparator": "cdpruner",
+  "difference_pp": 4.1015625,
+  "lower_95_pp": 1.009848484848485,
+  "upper_95_pp": 7.100996631106119
+ },
+ {
+  "model": "phi35",
+  "dataset": "MME",
+  "comparator": "all_tokens",
+  "difference_pp": -2.5390625,
+  "lower_95_pp": -4.940711462450593,
+  "upper_95_pp": -0.19455252918287938
+ },
+ {
+  "model": "phi35",
+  "dataset": "MME",
+  "comparator": "divprune",
+  "difference_pp": -0.5859375,
+  "lower_95_pp": -3.149606299212598,
+  "upper_95_pp": 1.953316482843136
+ },
+ {
+  "model": "phi35",
+  "dataset": "MME",
+  "comparator": "cdpruner",
+  "difference_pp": -2.5390625,
+  "lower_95_pp": -5.058365758754864,
+  "upper_95_pp": 0.0
+ },
+ {
+  "model": "phi35",
+  "dataset": "InfographicVQA",
+  "comparator": "all_tokens",
+  "difference_pp": -5.2207277401216405,
+  "lower_95_pp": -8.647372541082326,
+  "upper_95_pp": -2.0295586978652356
+ },
+ {
+  "model": "phi35",
+  "dataset": "InfographicVQA",
+  "comparator": "divprune",
+  "difference_pp": 15.262444314378824,
+  "lower_95_pp": 10.346324733314988,
+  "upper_95_pp": 20.70539543614554
+ },
+ {
+  "model": "phi35",
+  "dataset": "InfographicVQA",
+  "comparator": "cdpruner",
+  "difference_pp": 12.621730264855541,
+  "lower_95_pp": 7.778256416752629,
+  "upper_95_pp": 17.665104859833853
+ },
+ {
+  "model": "phi35",
+  "dataset": "OCRVQA_TESTCORE",
+  "comparator": "all_tokens",
+  "difference_pp": -0.390625,
+  "lower_95_pp": -1.7578125,
+  "upper_95_pp": 0.9652509652509652
+ },
+ {
+  "model": "phi35",
+  "dataset": "OCRVQA_TESTCORE",
+  "comparator": "divprune",
+  "difference_pp": 2.5390625,
+  "lower_95_pp": -0.19494129203216373,
+  "upper_95_pp": 5.1830919897138665
+ },
+ {
+  "model": "phi35",
+  "dataset": "OCRVQA_TESTCORE",
+  "comparator": "cdpruner",
+  "difference_pp": 0.390625,
+  "lower_95_pp": -1.5625764432485323,
+  "upper_95_pp": 2.161206549819779
+ },
+ {
+  "model": "qwen25",
+  "dataset": "TextVQA",
+  "comparator": "visionzip",
+  "difference_pp": 3.125,
+  "lower_95_pp": 1.2978416539463054,
+  "upper_95_pp": 5.009873832814583
+ },
+ {
+  "model": "qwen25",
+  "dataset": "TextVQA",
+  "comparator": "fastv_native",
+  "difference_pp": -0.2734375,
+  "lower_95_pp": -1.7094418782525231,
+  "upper_95_pp": 1.1262272665116917
+ },
+ {
+  "model": "qwen25",
+  "dataset": "TextVQA",
+  "comparator": "vlcache_native",
+  "difference_pp": -0.35156249999999994,
+  "lower_95_pp": -1.5782708261320426,
+  "upper_95_pp": 0.8858818745629765
+ },
+ {
+  "model": "qwen25",
+  "dataset": "DocVQA",
+  "comparator": "visionzip",
+  "difference_pp": 0.9871919658464383,
+  "lower_95_pp": -0.9689444812894753,
+  "upper_95_pp": 2.959622371114941
+ },
+ {
+  "model": "qwen25",
+  "dataset": "DocVQA",
+  "comparator": "fastv_native",
+  "difference_pp": 8.215574846686662,
+  "lower_95_pp": 4.2174472990917,
+  "upper_95_pp": 12.680927115274192
+ },
+ {
+  "model": "qwen25",
+  "dataset": "DocVQA",
+  "comparator": "vlcache_native",
+  "difference_pp": -2.9938735512190324,
+  "lower_95_pp": -4.47447703515805,
+  "upper_95_pp": -1.5229308382820728
+ },
+ {
+  "model": "qwen25",
+  "dataset": "ChartQA",
+  "comparator": "visionzip",
+  "difference_pp": 0.5859375,
+  "lower_95_pp": -2.136835278858625,
+  "upper_95_pp": 3.149761605243131
+ },
+ {
+  "model": "qwen25",
+  "dataset": "ChartQA",
+  "comparator": "fastv_native",
+  "difference_pp": 1.7578125,
+  "lower_95_pp": -0.6123076279692204,
+  "upper_95_pp": 4.134885568478886
+ },
+ {
+  "model": "qwen25",
+  "dataset": "ChartQA",
+  "comparator": "vlcache_native",
+  "difference_pp": -1.7578125,
+  "lower_95_pp": -3.9372020065539144,
+  "upper_95_pp": 0.3746562053599976
+ },
+ {
+  "model": "qwen25",
+  "dataset": "MME",
+  "comparator": "visionzip",
+  "difference_pp": 1.953125,
+  "lower_95_pp": -0.5882931912922649,
+  "upper_95_pp": 4.547648297648286
+ },
+ {
+  "model": "qwen25",
+  "dataset": "MME",
+  "comparator": "fastv_native",
+  "difference_pp": -1.7578125,
+  "lower_95_pp": -4.085603112840467,
+  "upper_95_pp": 0.39215686274509803
+ },
+ {
+  "model": "qwen25",
+  "dataset": "MME",
+  "comparator": "vlcache_native",
+  "difference_pp": -3.7109375,
+  "lower_95_pp": -6.008925327034883,
+  "upper_95_pp": -1.574803149606299
+ },
+ {
+  "model": "qwen25",
+  "dataset": "InfographicVQA",
+  "comparator": "visionzip",
+  "difference_pp": 5.876001410654217,
+  "lower_95_pp": 2.308449004341826,
+  "upper_95_pp": 9.606943006121242
+ },
+ {
+  "model": "qwen25",
+  "dataset": "InfographicVQA",
+  "comparator": "fastv_native",
+  "difference_pp": 6.237370306314813,
+  "lower_95_pp": 2.658984342440755,
+  "upper_95_pp": 9.944224644990229
+ },
+ {
+  "model": "qwen25",
+  "dataset": "InfographicVQA",
+  "comparator": "vlcache_native",
+  "difference_pp": -4.742058333650115,
+  "lower_95_pp": -7.342661214591242,
+  "upper_95_pp": -2.010565601218257
+ },
+ {
+  "model": "qwen25",
+  "dataset": "OCRVQA_TESTCORE",
+  "comparator": "visionzip",
+  "difference_pp": 1.7578125,
+  "lower_95_pp": 0.0,
+  "upper_95_pp": 3.515625
+ },
+ {
+  "model": "qwen25",
+  "dataset": "OCRVQA_TESTCORE",
+  "comparator": "fastv_native",
+  "difference_pp": -0.390625,
+  "lower_95_pp": -1.9686010032769572,
+  "upper_95_pp": 0.9996869664200141
+ },
+ {
+  "model": "qwen25",
+  "dataset": "OCRVQA_TESTCORE",
+  "comparator": "vlcache_native",
+  "difference_pp": 1.7578125,
+  "lower_95_pp": -0.5836860309008578,
+  "upper_95_pp": 4.10979049153908
+ },
+ {
+  "model": "llava_next",
+  "dataset": "TextVQA",
+  "comparator": "visionzip",
+  "difference_pp": 0.8593750000000001,
+  "lower_95_pp": -0.9562841066370998,
+  "upper_95_pp": 2.706148679944418
+ },
+ {
+  "model": "llava_next",
+  "dataset": "TextVQA",
+  "comparator": "fastv_native",
+  "difference_pp": 0.3515625000000001,
+  "lower_95_pp": -1.5281189788053948,
+  "upper_95_pp": 2.155510364733665
+ },
+ {
+  "model": "llava_next",
+  "dataset": "TextVQA",
+  "comparator": "vlcache_native",
+  "difference_pp": -0.058593749999999965,
+  "lower_95_pp": -2.0814810991834114,
+  "upper_95_pp": 2.007803142394138
+ },
+ {
+  "model": "llava_next",
+  "dataset": "DocVQA",
+  "comparator": "visionzip",
+  "difference_pp": 0.5239605967282398,
+  "lower_95_pp": -2.082439508854434,
+  "upper_95_pp": 3.026825175761309
+ },
+ {
+  "model": "llava_next",
+  "dataset": "DocVQA",
+  "comparator": "fastv_native",
+  "difference_pp": 2.9416050902078354,
+  "lower_95_pp": 0.22955158392025787,
+  "upper_95_pp": 5.534298618113475
+ },
+ {
+  "model": "llava_next",
+  "dataset": "DocVQA",
+  "comparator": "vlcache_native",
+  "difference_pp": -0.5356558918033729,
+  "lower_95_pp": -2.7019420402690586,
+  "upper_95_pp": 1.7998757163179895
+ },
+ {
+  "model": "llava_next",
+  "dataset": "ChartQA",
+  "comparator": "visionzip",
+  "difference_pp": 1.7578125,
+  "lower_95_pp": -0.39763411562497525,
+  "upper_95_pp": 4.373040809218353
+ },
+ {
+  "model": "llava_next",
+  "dataset": "ChartQA",
+  "comparator": "fastv_native",
+  "difference_pp": 2.1484375,
+  "lower_95_pp": -0.7984831939327756,
+  "upper_95_pp": 5.5769230769230775
+ },
+ {
+  "model": "llava_next",
+  "dataset": "ChartQA",
+  "comparator": "vlcache_native",
+  "difference_pp": 3.3203125,
+  "lower_95_pp": 0.7624013858651124,
+  "upper_95_pp": 6.225699287864328
+ },
+ {
+  "model": "llava_next",
+  "dataset": "MME",
+  "comparator": "visionzip",
+  "difference_pp": 0.0,
+  "lower_95_pp": -1.5625,
+  "upper_95_pp": 1.574803149606299
+ },
+ {
+  "model": "llava_next",
+  "dataset": "MME",
+  "comparator": "fastv_native",
+  "difference_pp": -1.5625,
+  "lower_95_pp": -3.0772200772200775,
+  "upper_95_pp": -0.19607843137254902
+ },
+ {
+  "model": "llava_next",
+  "dataset": "MME",
+  "comparator": "vlcache_native",
+  "difference_pp": -1.171875,
+  "lower_95_pp": -2.7240013983463034,
+  "upper_95_pp": 0.3861003861003861
+ },
+ {
+  "model": "llava_next",
+  "dataset": "InfographicVQA",
+  "comparator": "visionzip",
+  "difference_pp": 1.0362920053292295,
+  "lower_95_pp": -0.29088629874013433,
+  "upper_95_pp": 2.367418308414741
+ },
+ {
+  "model": "llava_next",
+  "dataset": "InfographicVQA",
+  "comparator": "fastv_native",
+  "difference_pp": 0.21039019574175824,
+  "lower_95_pp": -1.7386780714832892,
+  "upper_95_pp": 2.031772046365317
+ },
+ {
+  "model": "llava_next",
+  "dataset": "InfographicVQA",
+  "comparator": "vlcache_native",
+  "difference_pp": -0.09070928622383372,
+  "lower_95_pp": -2.036359762007904,
+  "upper_95_pp": 1.7808840854929002
+ },
+ {
+  "model": "llava_next",
+  "dataset": "OCRVQA_TESTCORE",
+  "comparator": "visionzip",
+  "difference_pp": -0.78125,
+  "lower_95_pp": -1.9569471624266144,
+  "upper_95_pp": 0.3913894324853229
+ },
+ {
+  "model": "llava_next",
+  "dataset": "OCRVQA_TESTCORE",
+  "comparator": "fastv_native",
+  "difference_pp": -0.78125,
+  "lower_95_pp": -1.9569471624266144,
+  "upper_95_pp": 0.3913894324853229
+ },
+ {
+  "model": "llava_next",
+  "dataset": "OCRVQA_TESTCORE",
+  "comparator": "vlcache_native",
+  "difference_pp": -0.78125,
+  "lower_95_pp": -2.1318864303454506,
+  "upper_95_pp": 0.3898635477582846
+ },
+ {
+  "model": "phi35",
+  "dataset": "TextVQA",
+  "comparator": "visionzip",
+  "difference_pp": 5.44921875,
+  "lower_95_pp": 2.6480907609670155,
+  "upper_95_pp": 8.308206194921636
+ },
+ {
+  "model": "phi35",
+  "dataset": "TextVQA",
+  "comparator": "fastv_native",
+  "difference_pp": 1.6992187499999998,
+  "lower_95_pp": -0.42067601188693593,
+  "upper_95_pp": 3.8835506241331474
+ },
+ {
+  "model": "phi35",
+  "dataset": "TextVQA",
+  "comparator": "vlcache_native",
+  "difference_pp": 0.33203124999999994,
+  "lower_95_pp": -1.442778524569446,
+  "upper_95_pp": 2.1749070135617137
+ },
+ {
+  "model": "phi35",
+  "dataset": "DocVQA",
+  "comparator": "visionzip",
+  "difference_pp": 11.89154769079542,
+  "lower_95_pp": 8.011800522929697,
+  "upper_95_pp": 15.76225235031722
+ },
+ {
+  "model": "phi35",
+  "dataset": "DocVQA",
+  "comparator": "fastv_native",
+  "difference_pp": 9.484644689165037,
+  "lower_95_pp": 5.407172414203612,
+  "upper_95_pp": 13.906908155713804
+ },
+ {
+  "model": "phi35",
+  "dataset": "DocVQA",
+  "comparator": "vlcache_native",
+  "difference_pp": -1.5047070525178983,
+  "lower_95_pp": -3.6460104409414495,
+  "upper_95_pp": 0.7762981115192401
+ },
+ {
+  "model": "phi35",
+  "dataset": "ChartQA",
+  "comparator": "visionzip",
+  "difference_pp": 3.515625,
+  "lower_95_pp": 1.0305611432402983,
+  "upper_95_pp": 6.142559231940408
+ },
+ {
+  "model": "phi35",
+  "dataset": "ChartQA",
+  "comparator": "fastv_native",
+  "difference_pp": 4.296875,
+  "lower_95_pp": 1.9339570004463624,
+  "upper_95_pp": 6.90996904705909
+ },
+ {
+  "model": "phi35",
+  "dataset": "ChartQA",
+  "comparator": "vlcache_native",
+  "difference_pp": 0.0,
+  "lower_95_pp": -1.7649669335189695,
+  "upper_95_pp": 1.7751479289940828
+ },
+ {
+  "model": "phi35",
+  "dataset": "MME",
+  "comparator": "visionzip",
+  "difference_pp": -0.78125,
+  "lower_95_pp": -3.5297591477535897,
+  "upper_95_pp": 2.0994377175280037
+ },
+ {
+  "model": "phi35",
+  "dataset": "MME",
+  "comparator": "fastv_native",
+  "difference_pp": -1.953125,
+  "lower_95_pp": -4.52755905511811,
+  "upper_95_pp": 0.763654654121544
+ },
+ {
+  "model": "phi35",
+  "dataset": "MME",
+  "comparator": "vlcache_native",
+  "difference_pp": -2.34375,
+  "lower_95_pp": -4.743083003952568,
+  "upper_95_pp": 0.0
+ },
+ {
+  "model": "phi35",
+  "dataset": "InfographicVQA",
+  "comparator": "visionzip",
+  "difference_pp": 6.08463625698271,
+  "lower_95_pp": 2.562247981289195,
+  "upper_95_pp": 10.010292762562035
+ },
+ {
+  "model": "phi35",
+  "dataset": "InfographicVQA",
+  "comparator": "fastv_native",
+  "difference_pp": 6.606334619775543,
+  "lower_95_pp": 3.2091210015077976,
+  "upper_95_pp": 10.281912390766662
+ },
+ {
+  "model": "phi35",
+  "dataset": "InfographicVQA",
+  "comparator": "vlcache_native",
+  "difference_pp": -4.432224107141093,
+  "lower_95_pp": -7.791008928266814,
+  "upper_95_pp": -1.3405542762046256
+ },
+ {
+  "model": "phi35",
+  "dataset": "OCRVQA_TESTCORE",
+  "comparator": "visionzip",
+  "difference_pp": 2.34375,
+  "lower_95_pp": 0.5870554825097847,
+  "upper_95_pp": 4.263980635236628
+ },
+ {
+  "model": "phi35",
+  "dataset": "OCRVQA_TESTCORE",
+  "comparator": "fastv_native",
+  "difference_pp": 1.171875,
+  "lower_95_pp": -0.572629183793306,
+  "upper_95_pp": 2.9184301545042883
+ },
+ {
+  "model": "phi35",
+  "dataset": "OCRVQA_TESTCORE",
+  "comparator": "vlcache_native",
+  "difference_pp": 0.5859375,
+  "lower_95_pp": -0.9961656380490064,
+  "upper_95_pp": 2.180905233380466
+ }
+]

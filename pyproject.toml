@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "asymvlm"
+version = "0.1.0"
+description = "AsymVLM: asymmetric visual-token pruning and generated-text KV eviction for vision-language models (anonymous supplementary code)"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = [
+    "torch==2.6.0",
+    "torchvision==0.21.0",
+    "transformers==4.51.3",
+    "accelerate==1.4.0",
+    "huggingface-hub==0.36.2",
+    "safetensors==0.8.0",
+    "sentencepiece==0.2.0",
+    "qwen-vl-utils==0.0.10",
+    "einops==0.8.1",
+    "numpy==2.2.3",
+    "pillow==11.1.0",
+    "pandas==2.2.3",
+    "pyarrow==19.0.1",
+    "tqdm==4.67.1",
+]
+
+[project.optional-dependencies]
+test = ["pytest==8.3.5"]
+
+[tool.setuptools]
+package-dir = { "" = "src", "asymvlm" = "asymvlm", "evaluation" = "evaluation" }
+
+[tool.setuptools.packages.find]
+# learned_score is a namespace package (no top-level __init__.py), kept unchanged from the frozen bundle.
+where = ["src", "."]
+include = ["asymvlm", "evaluation", "evaluation.*", "learned_score", "learned_score.*"]
+namespaces = true

@@ -1,0 +1,341 @@
+{
+ "rows": [
+  {
+   "model": "llava_next",
+   "panel": "new32",
+   "cell": "all_tokens_full_history",
+   "sources": 32,
+   "score": 23.805288461538463,
+   "versus_full": {
+    "delta": 0.0,
+    "ci_lower": 0.0,
+    "ci_upper": 0.0,
+    "confidence": 0.95,
+    "bootstrap_repetitions": 2000,
+    "bootstrap_seed": 2027,
+    "n_source_groups": 32,
+    "groups_by_category": {
+     "arxiv_math": 6,
+     "baseline": 32,
+     "headers_footers": 6,
+     "long_tiny_text": 4,
+     "multi_column": 6,
+     "old_scans": 2,
+     "old_scans_math": 2,
+     "table_tests": 6
+    },
+    "resampling": "paired source-cluster bootstrap stratified by category-membership signature",
+    "stratum_group_counts": {
+     "arxiv_math + baseline": 6,
+     "baseline + headers_footers": 6,
+     "baseline + long_tiny_text": 4,
+     "baseline + multi_column": 6,
+     "baseline + old_scans": 2,
+     "baseline + old_scans_math": 2,
+     "baseline + table_tests": 6
+    },
+    "singleton_strata_warning": false,
+    "estimand": "official equal-category macro pass-rate difference"
+   },
+   "mean_owned_cache_MiB": 755.5968964099884,
+   "cache_saving_percent": 0.0,
+   "mean_output_tokens": 3618.65625,
+   "output_limit_percent": 87.5
+  },
+  {
+   "model": "llava_next",
+   "panel": "new32",
+   "cell": "vision70_full_history",
+   "sources": 32,
+   "score": 21.742788461538463,
+   "versus_full": {
+    "delta": -0.020625000000000004,
+    "ci_lower": -0.040364583333333336,
+    "ci_upper": -0.000558035714285714,
+    "confidence": 0.95,
+    "bootstrap_repetitions": 2000,
+    "bootstrap_seed": 2027,
+    "n_source_groups": 32,
+    "groups_by_category": {
+     "arxiv_math": 6,
+     "baseline": 32,
+     "headers_footers": 6,
+     "long_tiny_text": 4,
+     "multi_column": 6,
+     "old_scans": 2,
+     "old_scans_math": 2,
+     "table_tests": 6
+    },
+    "resampling": "paired source-cluster bootstrap stratified by category-membership signature",
+    "stratum_group_counts": {
+     "arxiv_math + baseline": 6,
+     "baseline + headers_footers": 6,
+     "baseline + long_tiny_text": 4,
+     "baseline + multi_column": 6,
+     "baseline + old_scans": 2,
+     "baseline + old_scans_math": 2,
+     "baseline + table_tests": 6
+    },
+    "singleton_strata_warning": false,
+    "estimand": "official equal-category macro pass-rate difference"
+   },
+   "mean_owned_cache_MiB": 672.4629163742065,
+   "cache_saving_percent": 11.002424762564566,
+   "mean_output_tokens": 3641.875,
+   "output_limit_percent": 87.5
+  },
+  {
+   "model": "llava_next",
+   "panel": "new32",
+   "cell": "all_tokens_recency256",
+   "sources": 32,
+   "score": 24.195913461538463,
+   "versus_full": {
+    "delta": 0.00390625,
+    "ci_lower": 0.0,
+    "ci_upper": 0.01171875,
+    "confidence": 0.95,
+    "bootstrap_repetitions": 2000,
+    "bootstrap_seed": 2027,
+    "n_source_groups": 32,
+    "groups_by_category": {
+     "arxiv_math": 6,
+     "baseline": 32,
+     "headers_footers": 6,
+     "long_tiny_text": 4,
+     "multi_column": 6,
+     "old_scans": 2,
+     "old_scans_math": 2,
+     "table_tests": 6
+    },
+    "resampling": "paired source-cluster bootstrap stratified by category-membership signature",
+    "stratum_group_counts": {
+     "arxiv_math + baseline": 6,
+     "baseline + headers_footers": 6,
+     "baseline + long_tiny_text": 4,
+     "baseline + multi_column": 6,
+     "baseline + old_scans": 2,
+     "baseline + old_scans_math": 2,
+     "baseline + table_tests": 6
+    },
+    "singleton_strata_warning": false,
+    "estimand": "official equal-category macro pass-rate difference"
+   },
+   "mean_owned_cache_MiB": 341.19833755493164,
+   "cache_saving_percent": 54.843867255670055,
+   "mean_output_tokens": 3624.59375,
+   "output_limit_percent": 87.5
+  },
+  {
+   "model": "llava_next",
+   "panel": "new32",
+   "cell": "vision70_recency256",
+   "sources": 32,
+   "score": 22.133413461538463,
+   "versus_full": {
+    "delta": -0.016718750000000004,
+    "ci_lower": -0.03385667067307692,
+    "ci_upper": 0.0,
+    "confidence": 0.95,
+    "bootstrap_repetitions": 2000,
+    "bootstrap_seed": 2027,
+    "n_source_groups": 32,
+    "groups_by_category": {
+     "arxiv_math": 6,
+     "baseline": 32,
+     "headers_footers": 6,
+     "long_tiny_text": 4,
+     "multi_column": 6,
+     "old_scans": 2,
+     "old_scans_math": 2,
+     "table_tests": 6
+    },
+    "resampling": "paired source-cluster bootstrap stratified by category-membership signature",
+    "stratum_group_counts": {
+     "arxiv_math + baseline": 6,
+     "baseline + headers_footers": 6,
+     "baseline + long_tiny_text": 4,
+     "baseline + multi_column": 6,
+     "baseline + old_scans": 2,
+     "baseline + old_scans_math": 2,
+     "baseline + table_tests": 6
+    },
+    "singleton_strata_warning": false,
+    "estimand": "official equal-category macro pass-rate difference"
+   },
+   "mean_owned_cache_MiB": 253.834059715271,
+   "cache_saving_percent": 66.40615374132769,
+   "mean_output_tokens": 3423.4375,
+   "output_limit_percent": 81.25
+  },
+  {
+   "model": "llava_next",
+   "panel": "combined64",
+   "cell": "all_tokens_full_history",
+   "sources": 64,
+   "score": 23.51980757941314,
+   "versus_full": {
+    "delta": 0.0,
+    "ci_lower": 0.0,
+    "ci_upper": 0.0,
+    "confidence": 0.95,
+    "bootstrap_repetitions": 2000,
+    "bootstrap_seed": 2027,
+    "n_source_groups": 64,
+    "groups_by_category": {
+     "arxiv_math": 12,
+     "baseline": 64,
+     "headers_footers": 14,
+     "long_tiny_text": 6,
+     "multi_column": 9,
+     "old_scans": 4,
+     "old_scans_math": 4,
+     "table_tests": 15
+    },
+    "resampling": "paired source-cluster bootstrap stratified by category-membership signature",
+    "stratum_group_counts": {
+     "arxiv_math + baseline": 12,
+     "baseline + headers_footers": 14,
+     "baseline + long_tiny_text": 6,
+     "baseline + multi_column": 9,
+     "baseline + old_scans": 4,
+     "baseline + old_scans_math": 4,
+     "baseline + table_tests": 15
+    },
+    "singleton_strata_warning": false,
+    "estimand": "official equal-category macro pass-rate difference"
+   },
+   "mean_owned_cache_MiB": 777.565034031868,
+   "cache_saving_percent": 0.0,
+   "mean_output_tokens": 3795.515625,
+   "output_limit_percent": 92.1875
+  },
+  {
+   "model": "llava_next",
+   "panel": "combined64",
+   "cell": "vision70_full_history",
+   "sources": 64,
+   "score": 22.68125683899502,
+   "versus_full": {
+    "delta": -0.008385507404181203,
+    "ci_lower": -0.021958602867230583,
+    "ci_upper": 0.005506149179383943,
+    "confidence": 0.95,
+    "bootstrap_repetitions": 2000,
+    "bootstrap_seed": 2027,
+    "n_source_groups": 64,
+    "groups_by_category": {
+     "arxiv_math": 12,
+     "baseline": 64,
+     "headers_footers": 14,
+     "long_tiny_text": 6,
+     "multi_column": 9,
+     "old_scans": 4,
+     "old_scans_math": 4,
+     "table_tests": 15
+    },
+    "resampling": "paired source-cluster bootstrap stratified by category-membership signature",
+    "stratum_group_counts": {
+     "arxiv_math + baseline": 12,
+     "baseline + headers_footers": 14,
+     "baseline + long_tiny_text": 6,
+     "baseline + multi_column": 9,
+     "baseline + old_scans": 4,
+     "baseline + old_scans_math": 4,
+     "baseline + table_tests": 15
+    },
+    "singleton_strata_warning": false,
+    "estimand": "official equal-category macro pass-rate difference"
+   },
+   "mean_owned_cache_MiB": 685.8914703130722,
+   "cache_saving_percent": 11.789825893204785,
+   "mean_output_tokens": 3750.4375,
+   "output_limit_percent": 90.625
+  },
+  {
+   "model": "llava_next",
+   "panel": "combined64",
+   "cell": "all_tokens_recency256",
+   "sources": 64,
+   "score": 23.562681055022896,
+   "versus_full": {
+    "delta": 0.0004287347560975596,
+    "ci_lower": -0.0037128712871287127,
+    "ci_upper": 0.0048776486401011674,
+    "confidence": 0.95,
+    "bootstrap_repetitions": 2000,
+    "bootstrap_seed": 2027,
+    "n_source_groups": 64,
+    "groups_by_category": {
+     "arxiv_math": 12,
+     "baseline": 64,
+     "headers_footers": 14,
+     "long_tiny_text": 6,
+     "multi_column": 9,
+     "old_scans": 4,
+     "old_scans_math": 4,
+     "table_tests": 15
+    },
+    "resampling": "paired source-cluster bootstrap stratified by category-membership signature",
+    "stratum_group_counts": {
+     "arxiv_math + baseline": 12,
+     "baseline + headers_footers": 14,
+     "baseline + long_tiny_text": 6,
+     "baseline + multi_column": 9,
+     "baseline + old_scans": 4,
+     "baseline + old_scans_math": 4,
+     "baseline + table_tests": 15
+    },
+    "singleton_strata_warning": false,
+    "estimand": "official equal-category macro pass-rate difference"
+   },
+   "mean_owned_cache_MiB": 341.06366443634033,
+   "cache_saving_percent": 56.136959674248665,
+   "mean_output_tokens": 3798.484375,
+   "output_limit_percent": 92.1875
+  },
+  {
+   "model": "llava_next",
+   "panel": "combined64",
+   "cell": "vision70_recency256",
+   "sources": 64,
+   "score": 22.87656933899502,
+   "versus_full": {
+    "delta": -0.006432382404181203,
+    "ci_lower": -0.019486578893163697,
+    "ci_upper": 0.006688029766299388,
+    "confidence": 0.95,
+    "bootstrap_repetitions": 2000,
+    "bootstrap_seed": 2027,
+    "n_source_groups": 64,
+    "groups_by_category": {
+     "arxiv_math": 12,
+     "baseline": 64,
+     "headers_footers": 14,
+     "long_tiny_text": 6,
+     "multi_column": 9,
+     "old_scans": 4,
+     "old_scans_math": 4,
+     "table_tests": 15
+    },
+    "resampling": "paired source-cluster bootstrap stratified by category-membership signature",
+    "stratum_group_counts": {
+     "arxiv_math + baseline": 12,
+     "baseline + headers_footers": 14,
+     "baseline + long_tiny_text": 6,
+     "baseline + multi_column": 9,
+     "baseline + old_scans": 4,
+     "baseline + old_scans_math": 4,
+     "baseline + table_tests": 15
+    },
+    "singleton_strata_warning": false,
+    "estimand": "official equal-category macro pass-rate difference"
+   },
+   "mean_owned_cache_MiB": 253.6892545223236,
+   "cache_saving_percent": 67.37388598778912,
+   "mean_output_tokens": 3697.859375,
+   "output_limit_percent": 89.0625
+  }
+ ],
+ "time": 1793377045.8702283
+}

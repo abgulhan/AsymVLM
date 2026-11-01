@@ -1,0 +1,16 @@
+{
+ "model": "qwen25",
+ "requests": 96,
+ "threshold": 0.68,
+ "gpu": "NVIDIA A100-SXM4-40GB",
+ "uniform40_mean_ms": 518.1691329635214,
+ "gate_mean_ms": 787.090109292573,
+ "ratio_mean": 1.5189830100280854,
+ "uniform40_p50_ms": 414.78876769542694,
+ "gate_p50_ms": 660.1726519875228,
+ "uniform40_p90_ms": 853.7272647954524,
+ "gate_p90_ms": 1538.87138934806,
+ "accept_at_10": 0.3854166666666667,
+ "gate_ms_when_accepted": 592.8950802095839,
+ "gate_ms_when_escalated": 908.8734326158035
+}
